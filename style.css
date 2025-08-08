@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffcce0; /* pink pastel */
+  padding: 20px;
+  text-align: center;
+  color: #fff5e6; /* krem pastel */
+}
+
+h1 {
+  color: #fff5e6;
+}
+
+form {
+  background-color: #fff0f5; /* pink lebih muda */
+  padding: 20px;
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+  color: #5c3a3a; /* coklat lembut buat teks dalam kotak */
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 50px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #ffb6c1;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ff69b4; /* hot pink */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+#hasil {
+  margin-top: 20px;
+  color: #fff5e6; /* warna hasil */
+}
+
+table {
+  margin: 0 auto;
+  background-color: #fff0f5;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px;
+  border: 1px solid #ffb6c1;
+  color: #5c3a3a;
+}
