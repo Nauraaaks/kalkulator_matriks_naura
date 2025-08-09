@@ -3,44 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kalkulator Matriks</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-  <head>
   <title>Kalkulator Matriks Naura</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Kalkulator Matriks</h1>
+  <h1>Kalkulator Matriks Naura</h1>
 
- <form id="matrixForm">
-  <h2>Matriks A</h2>
-  <div id="matrixA">
-    <input type="number" id="a00" />
-    <input type="number" id="a01" /><br />
-    <input type="number" id="a10" />
-    <input type="number" id="a11" />
-  </div>
+  <form id="matrixForm">
+    <h2>Matriks A</h2>
+    <div id="matrixA">
+      <input type="number" id="a00" />
+      <input type="number" id="a01" /><br />
+      <input type="number" id="a10" />
+      <input type="number" id="a11" />
+    </div>
 
-  <h2>Matriks B</h2>
-  <div id="matrixB">
-    <input type="number" id="b00" />
-    <input type="number" id="b01" /><br />
-    <input type="number" id="b10" />
-    <input type="number" id="b11" />
-  </div>
+    <h2>Matriks B</h2>
+    <div id="matrixB">
+      <input type="number" id="b00" />
+      <input type="number" id="b01" /><br />
+      <input type="number" id="b10" />
+      <input type="number" id="b11" />
+    </div>
 
-  <h2>Pilih Operasi</h2>
-  <select id="operation">
-    <option value="add">Penjumlahan (+)</option>
-    <option value="sub">Pengurangan (-)</option>
-    <option value="mul">Perkalian (×)</option>
-  </select><br />
+    <h2>Pilih Operasi</h2>
+    <select id="operation">
+      <option value="add">Penjumlahan (+)</option>
+      <option value="sub">Pengurangan (-)</option>
+      <option value="mul">Perkalian (×)</option>
+    </select><br /><br />
 
-  <button type="button" onclick="hitungMatriks()">Hitung</button>
-</form>
-
-<div id="hasil"></div>
+    <button type="button" onclick="hitungMatriks()">Hitung</button>
+  </form>
 
   <h3>Hasil:</h3>
   <div id="hasil"></div>
@@ -48,3 +42,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
