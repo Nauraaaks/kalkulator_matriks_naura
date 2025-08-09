@@ -1,13 +1,11 @@
 function hitungMatriks() {
-  const operasi = document.getElementById("operasi").value;
+  const operasi = document.getElementById("operation").value;
 
-  // ambil nilai matriks A
   let a00 = parseFloat(document.getElementById("a00").value) || 0;
   let a01 = parseFloat(document.getElementById("a01").value) || 0;
   let a10 = parseFloat(document.getElementById("a10").value) || 0;
   let a11 = parseFloat(document.getElementById("a11").value) || 0;
 
-  // ambil nilai matriks B
   let b00 = parseFloat(document.getElementById("b00").value) || 0;
   let b01 = parseFloat(document.getElementById("b01").value) || 0;
   let b10 = parseFloat(document.getElementById("b10").value) || 0;
@@ -15,17 +13,17 @@ function hitungMatriks() {
 
   let hasil = "";
 
-  if (operasi === "tambah") {
+  if (operasi === "add") {
     hasil = `
       [ ${a00 + b00}  ${a01 + b01} ]<br>
       [ ${a10 + b10}  ${a11 + b11} ]
     `;
-  } else if (operasi === "kurang") {
+  } else if (operasi === "sub") {
     hasil = `
       [ ${a00 - b00}  ${a01 - b01} ]<br>
       [ ${a10 - b10}  ${a11 - b11} ]
     `;
-  } else if (operasi === "kali") {
+  } else if (operasi === "mul") {
     let c00 = a00 * b00 + a01 * b10;
     let c01 = a00 * b01 + a01 * b11;
     let c10 = a10 * b00 + a11 * b10;
